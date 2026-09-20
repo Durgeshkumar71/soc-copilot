@@ -1,0 +1,7 @@
+features,model,100,500,1000,2000
+full,IsolationForest,0.0,0.206,0.353,0.306
+full,LOF,0.02,0.222,0.277,0.285
+full,OneClassSVM,0.02,0.438,0.544,0.4755
+portable,IsolationForest,0.13,0.05,0.06,0.12
+portable,LOF,0.69,0.88,0.539,0.3875
+portable,OneClassSVM,0.89,0.782,0.417,0.2205
