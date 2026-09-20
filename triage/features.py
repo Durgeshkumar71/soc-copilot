@@ -40,7 +40,7 @@ def load_flows(path) -> pd.DataFrame:
     return df
 
 
-def build_features(flows: pd.DataFrame, window: str = "1min") -> pd.DataFrame:
+def build_features(flows: pd.DataFrame, window: str = "10s") -> pd.DataFrame:
     df = flows.dropna(subset=["start", "src_ip"]).copy()
     df["window"] = df["start"].dt.floor(window)
     df["unanswered"] = (df["pkts_toclient"] == 0).astype(int)
