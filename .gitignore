@@ -5,3 +5,5 @@ __pycache__/
 data/*.json
 data/*.csv
 data/run*/
+data/unsw/
+models/
