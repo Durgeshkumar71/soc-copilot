@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+*.pcap
+data/*.json
+data/*.csv
+data/run*/
